@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    background-image: radial-gradient(red, black)
+}
+#wrapper {
+    background-color: rgba(236, 19, 19, 0.719);
+    margin-top: 375px;
+    height: 200px;
+    padding: 15px;
+    border: 3px;
+    border-style: ridge;
+    border-color: rgba(0, 0, 0, 0.74);
+    width: 950px;
+    margin-left: 400px;
+    box-shadow: 5px 5px 5px black;
+}
+h1 {
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 15px;
+}
+.butQuote {
+    margin-top: 75px;
+}
+button:hover {
+    width: 95px;
+    font-size: larger;
+}
