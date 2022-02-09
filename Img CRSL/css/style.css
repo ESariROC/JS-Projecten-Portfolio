@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background-image: url(/img/football-stadium-38145-3840x2160.jpg);
+    background-size: 100%;
+    color: rgb(177, 167, 167);
+    font-family: 'Cabin';
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.wrapper {
+    font-style: italic;
+    margin-top: 200px;
+}
+
+.carrousel {
+    height: 350px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    
+}
+
+.img-carrousel {
+    display: none;
+    margin: auto;
+    max-height: 300px;
+}
+
+.img-carrousel.active {
+    display: block;
+}
+
+.knoppen {
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.knoppen .control-unit {
+    padding: 0 70px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: x-large;
+}

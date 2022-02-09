@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background: #252525;
+    color: rgb(177, 167, 167);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    font-style: italic;
+    margin-top: 50px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.img-carrousel {
+    display: none;
+    margin: auto;
+    max-height: 300px;
+}
+.img-carrousel-active {
+    display: block;
+}
+.knoppen {
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+}
+.vorige .volgende {
+    padding: 0 70px;
+    cursor: pointer;
+}
+.carrousel {
+    height: 350px;
+}
