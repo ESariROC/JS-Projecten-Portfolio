@@ -1,21 +1,26 @@
 const theQuotes = [
     { 
-        quote: 'Be yourself; everyone else is already taken.',
+        quote: 'Be yourself, everyone else is already taken.',
+        author: 'Oscar Wilde'
     },
     { 
         quote: 'Two things are infinite: the universe and human stupidity and Im not sure about the universe.',
+        author: 'Albert Einstein'
     },
     { 
         quote: 'A room without books is like a body without a soul.',
+        author: 'Marcus Tullius Cicero'
     },
     { 
         quote: 'Be the change that you wish to see in the world.',
+        author: 'Mahatma Gandhi'
     },
 ];
 
 const button = document.querySelector('.butQuote');
-button.addEventListener('click', mijnFunctie); 
 const para = document.querySelector('.quote');
+const authorFrom = document.querySelector('.author');
+button.addEventListener('click', mijnFunctie); 
 
 function mijnFunctie() {
     for (let i = 0; i < theQuotes.length; i++) {
@@ -24,7 +29,8 @@ function mijnFunctie() {
         //RANDOM QUOTE 
         const getQuoteNo = Math.floor(Math.random([i]) * theQuotes.length);
         const useQuote = theQuotes[getQuoteNo];
-        para.innerHTML = useQuote.quote      
+        para.innerHTML = useQuote.quote;
+        authorFrom.innerHTML = useQuote.author;
         
     }
    

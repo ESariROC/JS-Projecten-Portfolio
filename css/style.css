@@ -24,9 +24,12 @@ h1 {
     margin-bottom: 15px;
 }
 .butQuote {
-    margin-top: 75px;
+    margin-top: 40px;
 }
 button:hover {
     width: 95px;
     font-size: larger;
+}
+p {
+    padding: 10px;
 }
