@@ -6,7 +6,7 @@
 body {
     text-align: center;
     font-family: 'Cabin';
-    background-image: url(/img/blue-background-images-for-websites.jpg)
+    background-image: url(img/blue-background-images-for-websites.jpg)
 }
 .hide{
     display: none;
