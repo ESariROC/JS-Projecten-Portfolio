@@ -21,7 +21,6 @@ const button = document.querySelector('.buttonMy');
 button.addEventListener('click', mijnFunctie); 
 const paragraph = document.querySelector('.para')
 
-
 function mijnFunctie() {
     const getQuoteNo = Math.floor(Math.random() * theQuotes.length);
     const useQuote = theQuotes[getQuoteNo];

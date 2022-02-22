@@ -17,10 +17,10 @@ const theQuotes = [
     },
 ];
 
-const button = document.querySelector('.butQuote');
-const para = document.querySelector('.quote');
-const authorFrom = document.querySelector('.author');
-button.addEventListener('click', mijnFunctie); 
+const button = document.querySelector('.butQuote'); //button
+const para = document.querySelector('.quote'); //text
+const authorFrom = document.querySelector('.author'); 
+button.addEventListener('click', mijnFunctie); //voer functie uit
 
 function mijnFunctie() {
     for (let i = 0; i < theQuotes.length; i++) {

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Cabin';
+    background-image: url(/img/blue-background-images-for-websites.jpg)
+}
+.hide{
+    display: none;
+}
+.timer{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    width: 80%;
+    margin: 2% auto 2% auto;
+    border-style: ridge;
+    border-width: 5px;
+}
+.count-down{
+    font-size: xx-large;
+    margin:  5px 0 5px 0;
+    color: whitesmoke;
+}
+h1{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 10px;
+}
+h2{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
+p {
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
